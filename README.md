@@ -85,10 +85,10 @@ together with the corresponding metrics and point counts.
 ## Reproducible example
 
 The [`examples/yacht_hydrodynamics`](examples/yacht_hydrodynamics) directory
-contains the existing demonstration, sample model evaluations and corrected AIBA
-output. Its included plot is a retrospective equal-count comparison. A conclusive
-efficiency experiment must train both a new broad-search baseline and a new guided
-group under the budget-matched protocol in
+contains a budget-matched comparison between AIBA-guided search and broad random
+search. The experiment can be run with one replication for a quick functional
+check or with ten replications for the full comparison. Its design and reporting
+protocol are documented in
 [`docs/reproducibility.md`](docs/reproducibility.md).
 
 The Yacht Hydrodynamics dataset is distributed under CC BY 4.0. Its attribution
@@ -130,9 +130,8 @@ modelos subrogados de gemelos digitales para optimización de procesos
 industriales*, by José María Vecino Otero, supervised by Abraham Prieto García
 and Alejandro González Casal at Universidade da Coruña.
 
-The thesis PDF is intentionally not included. Until an authorized public copy is
-available, this repository provides bibliographic metadata only; see
-[`references/references.bib`](references/references.bib).
+The thesis is cited here as academic context but its PDF is not distributed in
+this repository.
 
 ## License and attribution
 
