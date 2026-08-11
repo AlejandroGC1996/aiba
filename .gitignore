@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+build/
+build-check/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated example outputs
+examples/**/generated/
+examples/**/generated_replicated/

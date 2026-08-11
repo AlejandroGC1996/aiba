@@ -1,0 +1,14 @@
+{
+  "n_replications": 10,
+  "n_initial_aiba": 100,
+  "n_guided_aiba": 20,
+  "base_seed": 2026,
+  "test_size": 0.2,
+  "aiba_min_fraction": 0.02,
+  "aiba_beta": 1.0,
+  "aiba_initial_step": 0.2,
+  "aiba_iterative_step": 0.01,
+  "aiba_max_initial_steps": 5,
+  "aiba_max_iterations": 500,
+  "total_budget": 120
+}

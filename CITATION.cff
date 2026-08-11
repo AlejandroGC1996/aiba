@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use AIBA in your research, please cite this software and the associated Master's thesis."
+title: "AIBA: Adaptive interval search for efficient hyperparameter tuning"
+type: software
+version: 0.1.0
+date-released: 2026-08-11
+license: MIT
+authors:
+  - family-names: "Vecino Otero"
+    given-names: "José María"
+  - family-names: "González Casal"
+    given-names: "Alejandro"
+  - family-names: "Prieto García"
+    given-names: "Abraham"
+abstract: >-
+  AIBA is an iterative interval-search algorithm that identifies promising
+  hyperparameter regions from previously evaluated machine-learning model
+  configurations. It is designed to allocate a limited remaining training
+  budget more reliably by concentrating new evaluations in regions with strong
+  mean performance and low uncertainty.
+keywords:
+  - hyperparameter optimization
+  - surrogate models
+  - interval search
+  - green artificial intelligence
+  - computational efficiency
+preferred-citation:
+  type: thesis
+  title: "Diseño y análisis de modelos subrogados de gemelos digitales para optimización de procesos industriales"
+  authors:
+    - family-names: "Vecino Otero"
+      given-names: "José María"
+  year: 2025
+  institution:
+    name: "Universidade da Coruña"
+
